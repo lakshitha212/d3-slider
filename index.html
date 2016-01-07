@@ -19,5 +19,11 @@
 <script type="text/javascript" src="js/d3.min.js"></script>
 <!--d3 slider custom js-->
 <script type="text/javascript" src="js/d3-slider.js"></script>
+<script type="text/javascript">
+    $('body').d3slider({
+        url: 'data.json',//define location of json file default url: data.json
+        colorRange: ['Red', 'Black']//define colour palette
+    });
+</script>
 </body>
 </html>
