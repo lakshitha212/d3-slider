@@ -3,7 +3,9 @@ Simple slider
 
 # json data formats for each d3 chart
 
-1) Single or Multiple Bar chart
+1) Single or Grouped Bar chart
+ * Single Bar Chart :http://bl.ocks.org/mbostock/3885304
+ * Grouped Bar chart :http://bl.ocks.org/mbostock/3887051
 [
     {
         "A": "100",
@@ -23,6 +25,7 @@ Simple slider
 ]
 
 2) Pie Chart
+ * Pie Chart :http://bl.ocks.org/mbostock/3887235
 [
     {
         "name": "A",
@@ -35,6 +38,7 @@ Simple slider
 ]
 
 3) Donut Chart
+ * Donut Chart :http://bl.ocks.org/mbostock/3887193
 [
     {
         "name": "A",
@@ -46,7 +50,8 @@ Simple slider
     }
 ]
 
-4) Horizontal Single or Multiple Bar Chart
+4) Horizontally Single or Grouped Bar Chart
+ * Horizontally Grouped Bar Chart :http://bl.ocks.org/erikvullings/51cc5332439939f1f292
 [
     {
         "labels": [
@@ -61,6 +66,49 @@ Simple slider
                     "100",
                     "200",
                     "300"
+                ]
+            }
+        ]
+    }
+]
+
+5) Zoomable Sunburst Chart
+ Zoomable Sunburst Chart :http://bl.ocks.org/kerryrodden/477c1bfb081b783f80ad
+[
+    {
+        "name": "A",
+        "text": "A",
+        "children": [
+            {
+                "name": "a",
+                "text": "a",
+                "children": [
+                    {
+                        "name": "aa",
+                        "size": "100",
+                        "value": "200"
+                    },
+                    {
+                        "name": "aaa",
+                        "size": "200",
+                        "value": "300"
+                    }
+                ]
+            },
+            {
+                "name": "b",
+                "text": "b",
+                "children": [
+                    {
+                        "name": "bb",
+                        "size": "300",
+                        "value": "400"
+                    },
+                    {
+                        "name": "bbb",
+                        "size": "400",
+                        "value": "500"
+                    }
                 ]
             }
         ]
