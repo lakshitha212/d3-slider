@@ -6,6 +6,7 @@ Simple slider
 1) Single or Grouped Bar chart
  * Single Bar Chart :http://bl.ocks.org/mbostock/3885304
  * Grouped Bar chart :http://bl.ocks.org/mbostock/3887051
+ 
 [
     {
         "A": "100",
@@ -26,6 +27,7 @@ Simple slider
 
 2) Pie Chart
  * Pie Chart :http://bl.ocks.org/mbostock/3887235
+ 
 [
     {
         "name": "A",
@@ -39,6 +41,7 @@ Simple slider
 
 3) Donut Chart
  * Donut Chart :http://bl.ocks.org/mbostock/3887193
+ 
 [
     {
         "name": "A",
@@ -52,6 +55,7 @@ Simple slider
 
 4) Horizontally Single or Grouped Bar Chart
  * Horizontally Grouped Bar Chart :http://bl.ocks.org/erikvullings/51cc5332439939f1f292
+ 
 [
     {
         "labels": [
@@ -73,7 +77,8 @@ Simple slider
 ]
 
 5) Zoomable Sunburst Chart
- Zoomable Sunburst Chart :http://bl.ocks.org/kerryrodden/477c1bfb081b783f80ad
+ * Zoomable Sunburst Chart :http://bl.ocks.org/kerryrodden/477c1bfb081b783f80ad
+ 
 [
     {
         "name": "A",
